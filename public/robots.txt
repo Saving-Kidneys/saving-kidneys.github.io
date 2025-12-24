@@ -1,0 +1,8 @@
+# Robots.txt for Health & Awareness, Inc
+# https://savingkidneys.github.io
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://savingkidneys.github.io/sitemap.xml

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/images/health-awareness-logo.png" />
+    <link rel="apple-touch-icon" href="/assets/images/health-awareness-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Health & Awareness, Inc - A 501(c)(3) nonprofit dedicated to raising awareness about Chronic Kidney Disease prevention and healthy living." />
+    <meta name="keywords" content="chronic kidney disease, CKD, kidney health, health awareness, nonprofit, Virginia, kidney education, dialysis prevention" />
+    <meta name="author" content="Health & Awareness, Inc" />
+    <meta name="theme-color" content="#006400" />
+    <link rel="canonical" href="https://savingkidneys.github.io/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://savingkidneys.github.io/" />
+    <meta property="og:title" content="Health & Awareness, Inc - Bringing Awareness to Your Health" />
+    <meta property="og:description" content="A 501(c)(3) nonprofit dedicated to raising awareness about Chronic Kidney Disease prevention and healthy living." />
+    <meta property="og:image" content="https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg" />
+    <meta property="og:site_name" content="Health & Awareness, Inc" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://savingkidneys.github.io/" />
+    <meta name="twitter:title" content="Health & Awareness, Inc - Bringing Awareness to Your Health" />
+    <meta name="twitter:description" content="A 501(c)(3) nonprofit dedicated to raising awareness about Chronic Kidney Disease prevention and healthy living." />
+    <meta name="twitter:image" content="https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://www.paypal.com" />
+    <link rel="preconnect" href="https://www.eventbrite.com" />
+    
+    <title>Health & Awareness, Inc</title>
+    
+    <!-- Structured Data - Nonprofit Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NonprofitOrganization",
+      "name": "Health & Awareness, Inc",
+      "alternateName": "Saving Kidneys",
+      "url": "https://savingkidneys.github.io",
+      "logo": "https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg",
+      "description": "Health & Awareness, Inc is a 501(c)(3) organization dedicated to raising awareness about preventive behaviors, early detection, and a healthy lifestyle to stop the progression of Chronic Kidney Disease.",
+      "foundingDate": "2010",
+      "founder": {
+        "@type": "Person",
+        "name": "Wallace S. Green Sr."
+      },
+      "nonprofitStatus": "501(c)(3)",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Virginia, United States"
+      },
+      "knowsAbout": ["Chronic Kidney Disease", "Kidney Health", "Diabetes Prevention", "Hypertension Awareness"],
+      "sameAs": [
+        "https://www.eventbrite.com/cc/saving-kidneys-2016669"
+      ]
+    }
+    </script>
+    
+    <!-- GitHub Pages SPA redirect script -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
