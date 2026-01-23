@@ -27,13 +27,17 @@ useHead({
       <div class="container">
         <div class="content-grid">
           <div class="content-text">
-            <h2>Front Desk of the President</h2>
-            <p>
-              Health & Awareness, Inc is a faith-based 501 (c)(3) organization that educates individuals in the community by raising awareness about preventive behaviors, early detection, and a healthy lifestyle to stop the progression of Chronic Kidney Disease. 
-            </p>
-            <p>
-              Disclaimer: Health & Awareness is not a healthcare provider. Any health-related information or advice shared is for awareness and informational purposes only and should not be considered a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition or diagnosis.
-            </p>
+            <p class="italic"> A warm welcome from The Founder/CEO and Volunteer Team</p>
+            <h3>Roshawn Foote-Scott - President</h3>
+            <blockquote>
+              <p>It's a pleasure to step into this leading role. I'm genuinely excited to be chosen as president of Health & Awareness and to partner with you all.  I've heard great things about this team's dedication and talent, and I'm eager to build on that success. Your expertise is what will drive us forward. </p>
+                <p>My immediate focus is to learn from you and identify opportunities for us to grow and innovate. In the coming weeks, I'll be meeting with each of you to understand your perspectives. I believe in empowering teams, and I'm committed to creating an environment where your voices are heard, and your ideas can flourish. You can expect transparency and timely decisions from me, and I hope for your best effort and ideas. Let's redefine what's possible together!</p>
+              <p>I’m looking forward to a fantastic journey! </p>
+            </blockquote>
+            <h3>The Founder/CEO and Volunteer Team.</h3>
+            <blockquote>
+              On behalf of everyone, I warmly welcome you to our team. Your dedication and experience inspire confidence that we can achieve great things together. We are confident you will be an exemplary role model for our team, and we look forward to collaborating with you. As we embark on this journey together, let's strive to achieve new heights and make a significant impact. Your presence is a source of inspiration, and we are excited about the prospects of working alongside you. Welcome aboard!
+            </blockquote>
           </div>
           <div class="content-image">
             <img src="/assets/images/wallace4.png" alt="Wallace S. Green Sr." class="story-image" />
@@ -50,16 +54,36 @@ useHead({
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--spacing-10);
-  align-items: center;
+
 }
 
-.content-text h2 {
+.content-text h3 {
   margin-bottom: var(--spacing-6);
 }
 
 .content-text p {
   color: var(--color-gray-600);
   line-height: var(--line-height-relaxed);
+}
+
+.content-text .italic {
+  font-style: italic;
+  font-size: var(--text-lg);
+  color: var(--color-primary-600);
+  font-weight: 500;
+}
+
+.content-text blockquote {
+  color: var(--color-gray-600);
+  line-height: var(--line-height-relaxed);
+  border-left: 4px solid var(--color-primary-500);
+  padding-left: var(--spacing-4);
+  font-style: italic;
+}
+
+.content-image {
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .story-image {
