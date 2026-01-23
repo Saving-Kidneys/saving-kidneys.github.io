@@ -54,7 +54,7 @@ useHead({
             <h2>Our Mission</h2>
             <p>
               <!-- Add your vision description here -->
-              Our Mision is to decrease the rising numbers of chronic kidney failure by bridging the knowledge gap for better kidney care. We have adopted easy to understand rules that we call "Common Sense Rules".  The Common Sense Rules  focuses on understanding lab test results, forget dieting and change eating habits instead, read and follow the nutritional fact label, know the facts about organ donation and remembering there is no such thing as a one size fits all treatment plan.
+              Our Mission is to decrease the rising numbers of chronic kidney failure by bridging the knowledge gap for better kidney care. We have adopted easy to understand rules that we call "Common Sense Rules".  The Common Sense Rules  focuses on understanding lab test results, forget dieting and change eating habits instead, read and follow the nutritional fact label, know the facts about organ donation and remembering there is no such thing as a one size fits all treatment plan.
             </p>
           </div>
           <div class="content-image">
