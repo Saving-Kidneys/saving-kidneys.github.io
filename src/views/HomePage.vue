@@ -5,19 +5,19 @@ import { useHead } from '@unhead/vue'
 useHead({
   title: 'Health & Awareness, Inc - Bringing Awareness to Your Health',
   link: [
-    { rel: 'canonical', href: 'https://savingkidneys.github.io/' }
+    { rel: 'canonical', href: 'https://saving-kidneys.github.io/' }
   ],
   meta: [
     { name: 'description', content: 'Health & Awareness, Inc is a 501(c)(3) organization dedicated to raising awareness about preventive behaviors, early detection, and a healthy lifestyle to stop the progression of Chronic Kidney Disease.' },
     { property: 'og:title', content: 'Health & Awareness, Inc - Bringing Awareness to Your Health' },
     { property: 'og:description', content: 'Raising awareness about Chronic Kidney Disease prevention and healthy living.' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://savingkidneys.github.io/' },
-    { property: 'og:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' },
+    { property: 'og:url', content: 'https://saving-kidneys.github.io/' },
+    { property: 'og:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Health & Awareness, Inc - Bringing Awareness to Your Health' },
     { name: 'twitter:description', content: 'Raising awareness about Chronic Kidney Disease prevention and healthy living.' },
-    { name: 'twitter:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' }
+    { name: 'twitter:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' }
   ]
 })
 

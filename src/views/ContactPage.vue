@@ -5,18 +5,18 @@ import { useHead } from '@unhead/vue'
 useHead({
   title: 'Contact Us - Health & Awareness, Inc',
   link: [
-    { rel: 'canonical', href: 'https://savingkidneys.github.io/contact' }
+    { rel: 'canonical', href: 'https://saving-kidneys.github.io/contact' }
   ],
   meta: [
     { name: 'description', content: 'Get in touch with Health & Awareness, Inc. Contact us for questions about our programs, volunteer opportunities, sponsorships, or partnerships.' },
     { property: 'og:title', content: 'Contact Us - Health & Awareness, Inc' },
     { property: 'og:description', content: 'Reach out to learn more about our kidney disease awareness programs.' },
-    { property: 'og:url', content: 'https://savingkidneys.github.io/contact' },
-    { property: 'og:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' },
+    { property: 'og:url', content: 'https://saving-kidneys.github.io/contact' },
+    { property: 'og:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Contact Us - Health & Awareness, Inc' },
     { name: 'twitter:description', content: 'Reach out to learn more about our kidney disease awareness programs.' },
-    { name: 'twitter:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' }
+    { name: 'twitter:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' }
   ]
 })
 

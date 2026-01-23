@@ -4,18 +4,18 @@ import { useHead } from '@unhead/vue'
 useHead({
   title: 'Front Desk of the President - Health & Awareness, Inc',
   link: [
-    { rel: 'canonical', href: 'https://savingkidneys.github.io/front-desk-of-the-president' }
+    { rel: 'canonical', href: 'https://saving-kidneys.github.io/front-desk-of-the-president' }
   ],
   meta: [
     { name: 'description', content: 'A message from the President of Health & Awareness, Inc - a faith-based 501(c)(3) organization educating communities about Chronic Kidney Disease prevention and healthy living.' },
     { property: 'og:title', content: 'Front Desk of the President - Health & Awareness, Inc' },
     { property: 'og:description', content: 'A message from the President of Health & Awareness, Inc.' },
-    { property: 'og:url', content: 'https://savingkidneys.github.io/front-desk-of-the-president' },
-    { property: 'og:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' },
+    { property: 'og:url', content: 'https://saving-kidneys.github.io/front-desk-of-the-president' },
+    { property: 'og:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Front Desk of the President - Health & Awareness, Inc' },
     { name: 'twitter:description', content: 'A message from the President of Health & Awareness, Inc.' },
-    { name: 'twitter:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' }
+    { name: 'twitter:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' }
   ]
 })
 </script>

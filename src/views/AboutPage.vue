@@ -4,18 +4,18 @@ import { useHead } from '@unhead/vue'
 useHead({
   title: 'About Us - Health & Awareness, Inc',
   link: [
-    { rel: 'canonical', href: 'https://savingkidneys.github.io/about' }
+    { rel: 'canonical', href: 'https://saving-kidneys.github.io/about' }
   ],
   meta: [
     { name: 'description', content: 'Learn about Health & Awareness, Inc - a faith-based 501(c)(3) organization educating communities about Chronic Kidney Disease prevention and healthy living.' },
     { property: 'og:title', content: 'About Us - Health & Awareness, Inc' },
     { property: 'og:description', content: 'Learn about our mission to raise awareness about Chronic Kidney Disease.' },
-    { property: 'og:url', content: 'https://savingkidneys.github.io/about' },
-    { property: 'og:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' },
+    { property: 'og:url', content: 'https://saving-kidneys.github.io/about' },
+    { property: 'og:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'About Us - Health & Awareness, Inc' },
     { name: 'twitter:description', content: 'Learn about our mission to raise awareness about Chronic Kidney Disease.' },
-    { name: 'twitter:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' }
+    { name: 'twitter:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' }
   ]
 })
 </script>

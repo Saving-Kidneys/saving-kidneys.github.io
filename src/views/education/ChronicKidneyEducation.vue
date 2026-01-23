@@ -4,18 +4,18 @@ import { useHead } from '@unhead/vue'
 useHead({
   title: 'Chronic Kidney Education - Health & Awareness, Inc',
   link: [
-    { rel: 'canonical', href: 'https://savingkidneys.github.io/education/chronic-kidney-education' }
+    { rel: 'canonical', href: 'https://saving-kidneys.github.io/education/chronic-kidney-education' }
   ],
   meta: [
     { name: 'description', content: 'Learn about chronic kidney disease, what causes it, and how to prevent it. Educational resources to help save your kidneys.' },
     { property: 'og:title', content: 'Chronic Kidney Education - Health & Awareness, Inc' },
     { property: 'og:description', content: 'What you learn can help save your kidneys! Educational resources about CKD.' },
-    { property: 'og:url', content: 'https://savingkidneys.github.io/education/chronic-kidney-education' },
-    { property: 'og:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' },
+    { property: 'og:url', content: 'https://saving-kidneys.github.io/education/chronic-kidney-education' },
+    { property: 'og:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Chronic Kidney Education - Health & Awareness, Inc' },
     { name: 'twitter:description', content: 'What you learn can help save your kidneys! Educational resources about CKD.' },
-    { name: 'twitter:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' }
+    { name: 'twitter:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' }
   ]
 })
 </script>

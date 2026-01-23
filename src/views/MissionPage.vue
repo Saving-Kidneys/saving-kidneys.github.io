@@ -4,18 +4,18 @@ import { useHead } from '@unhead/vue'
 useHead({
   title: 'Our Mission - Health & Awareness, Inc',
   link: [
-    { rel: 'canonical', href: 'https://savingkidneys.github.io/mission' }
+    { rel: 'canonical', href: 'https://saving-kidneys.github.io/mission' }
   ],
   meta: [
     { name: 'description', content: 'Our mission is to educate communities about preventive behaviors, early detection, and healthy lifestyles to stop the progression of Chronic Kidney Disease.' },
     { property: 'og:title', content: 'Our Mission - Health & Awareness, Inc' },
     { property: 'og:description', content: 'Bringing awareness to kidney health through education and community outreach.' },
-    { property: 'og:url', content: 'https://savingkidneys.github.io/mission' },
-    { property: 'og:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' },
+    { property: 'og:url', content: 'https://saving-kidneys.github.io/mission' },
+    { property: 'og:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Our Mission - Health & Awareness, Inc' },
     { name: 'twitter:description', content: 'Bringing awareness to kidney health through education and community outreach.' },
-    { name: 'twitter:image', content: 'https://savingkidneys.github.io/assets/images/savingkidneys-og.jpg' }
+    { name: 'twitter:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' }
   ]
 })
 </script>
