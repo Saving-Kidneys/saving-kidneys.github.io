@@ -20,6 +20,29 @@ const socialLinks = [
 
 <template>
   <footer class="footer">
+  <!-- Supporters Section -->
+    <section class="section supporters-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">We Appreciate Our Supporters</h2>
+
+        </div>
+        <div class="supporters-grid">
+          <a href="https://www.donatelifevirginia.org/" target="_blank" rel="noopener noreferrer" class="supporter-link">
+            <img src="/assets/images/Donate-Life-Virginia-Logo-Horizontal.webp" alt="Donate Life Virginia" class="supporter-logo" />
+          </a>
+          <a href="https://www.lifenethealth.org/" target="_blank" rel="noopener noreferrer" class="supporter-link">
+            <img src="/assets/images/lifenet.png" alt="LifeNet Health" class="supporter-logo" />
+          </a>
+          <a href="https://www.integritymedicareva.com/" target="_blank" rel="noopener noreferrer" class="supporter-link">
+            <img src="/assets/images/IIS LOGO 2.avif" alt="Integrity Insurance Services" class="supporter-logo" />
+          </a>
+          <a href="https://reps.modernwoodmen.org/jmcduffie/" target="_blank" rel="noopener noreferrer" class="supporter-link supporter-link-dark">
+            <img src="/assets/images/modernwoodmen.svg" alt="Modern Woodmen" class="supporter-logo" />
+          </a>
+        </div>
+      </div>
+    </section>
     <div class="container">
       <div class="footer-grid">
         <!-- About Section -->
@@ -95,6 +118,45 @@ const socialLinks = [
 </template>
 
 <style scoped>
+.supporters-section {
+  padding-top: 0;
+}
+.section-title {
+  color: var(--color-white);
+}
+.supporters-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-8);
+  align-items: center;
+  justify-items: center;
+}
+
+.supporter-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-6);
+  background-color: var(--color-white);
+  border-radius: var(--radius-xl);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.supporter-link:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.supporter-link-dark {
+  background-color: var(--color-gray-800);
+}
+
+.supporter-logo {
+  width: 180px;
+  height: 80px;
+  object-fit: contain;
+}
+
 .footer {
   background-color: var(--color-gray-900);
   color: var(--color-gray-300);
@@ -218,6 +280,15 @@ const socialLinks = [
   .footer-bottom {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .supporters-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .supporter-logo {
+    width: 200px;
+    height: 100px;
   }
 }
 

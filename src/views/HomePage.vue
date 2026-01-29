@@ -404,29 +404,6 @@ onUnmounted(() => {
       </div>
     </section>
 
-    <!-- Supporters Section -->
-    <section class="section supporters-section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">We Appreciate Our Supporters</h2>
-
-        </div>
-        <div class="supporters-grid">
-          <a href="https://www.donatelifevirginia.org/" target="_blank" rel="noopener noreferrer" class="supporter-link">
-            <img src="/assets/images/Donate-Life-Virginia-Logo-Horizontal.webp" alt="Donate Life Virginia" class="supporter-logo" />
-          </a>
-          <a href="https://www.lifenethealth.org/" target="_blank" rel="noopener noreferrer" class="supporter-link">
-            <img src="/assets/images/lifenet.png" alt="LifeNet Health" class="supporter-logo" />
-          </a>
-          <a href="https://www.integritymedicareva.com/" target="_blank" rel="noopener noreferrer" class="supporter-link">
-            <img src="/assets/images/IIS LOGO 2.avif" alt="Integrity Insurance Services" class="supporter-logo" />
-          </a>
-          <a href="https://reps.modernwoodmen.org/jmcduffie/" target="_blank" rel="noopener noreferrer" class="supporter-link supporter-link-dark">
-            <img src="/assets/images/modernwoodmen.svg" alt="Modern Woodmen" class="supporter-logo" />
-          </a>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
@@ -739,15 +716,6 @@ onUnmounted(() => {
 
   .programs-grid {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .supporters-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .supporter-logo {
-    width: 200px;
-    height: 100px;
   }
 }
 
