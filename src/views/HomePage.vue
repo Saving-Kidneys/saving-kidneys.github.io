@@ -95,7 +95,7 @@ onUnmounted(() => {
           </h1>
           <p class="hero-subtitle">
             <!-- Add your tagline or brief description here -->
-           Founded by Wallace S. Green Sr., Health & Awareness, Inc is a 501 (c)(3) organization dedicated to raising awareness about preventive behaviors, early detection, and a healthy lifestyle to stop the progression of Chronic Kidney Disease
+           Founded by Wallace S. Green Sr., Health & Awareness, Inc is a 501 (c)(3) organization dedicated to raising awareness about preventive behaviors, early detection, and a healthy lifestyle to stop the progression of Chronic Kidney Disease.
           </p>
           <div class="hero-actions">
             <RouterLink to="/donate" class="btn btn-primary btn-lg">
@@ -250,6 +250,22 @@ onUnmounted(() => {
       </div>
     </section>
 
+    <!-- Kroger Community Rewards -->
+    <section class="section feature-section feature-alt">
+      <div class="container">
+        <div class="feature-content">
+          <div class="feature-text">
+            <h2 class="section-title">Kroger Community Rewards</h2>
+            <p>Kroger is committed to helping our communities grow and prosper. You can support our cause by enrolling in the Kroger Community Rewards program and selecting Health & Awareness, Inc as your preferred charity.</p>
+            <p><RouterLink to="/programs" class="text-link">Learn More</RouterLink> on our Program page.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/images/kroger-flyer.jpg" alt="Kroger Community Rewards instructions" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- 13th Annual Caregiver Awards Recap -->
     <section class="section feature-section">
       <div class="container">
@@ -392,7 +408,7 @@ onUnmounted(() => {
     <section class="section supporters-section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Our Supporters</h2>
+          <h2 class="section-title">We Appreciate Our Supporters</h2>
 
         </div>
         <div class="supporters-grid">

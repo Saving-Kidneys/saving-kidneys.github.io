@@ -88,6 +88,24 @@ const yearsSinceFoodDistribution = new Date().getFullYear() - foodDistributionSt
       </div>
     </section>
 
+    <!-- Kroger Community Rewards -->
+    <section class="section">
+      <div class="container">
+        <div class="program-card">
+          <div class="program-content">
+            <h2>Kroger Community Rewards</h2>
+            <p>Kroger is committed to helping our communities grow and prosper. Help us earn money by joining Kroger's free Community Rewards program.</p>
+            <p>1. Create a <a href="https://www.kroger.com/" target="_blank" rel="noopener noreferrer" class="text-link">Kroger account</a> or sign in to your existing account.</p>
+            <p>2. On the <a href="https://www.kroger.com/account/communityrewards" target="_blank" rel="noopener noreferrer" class="text-link">Community Rewards</a> page, search "IP186" and select "Health & Awareness INC" and click Enroll.</p>
+            <p>3. Any transactions going forward using your free Shopper's Card (Plus Card) will help support our cause - at no added cost to you.</p>
+          </div>
+          <div class="program-image">
+            <img src="/assets/images/kroger-flyer2.jpg" alt="Kroger Community Rewards instructions" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Health Workshops -->
     <section class="section">
       <div class="container">
