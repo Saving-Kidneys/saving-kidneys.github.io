@@ -129,7 +129,7 @@ const handleSubmit = () => {
                   <div class="info-content">
                     <h4>Email</h4>
                     <p>
-                      <a href="mailto:info@charity.org">info@savingkidneys.org</a>
+                      <a href="mailto:kidneycoachro@gmail.com">kidneycoachro@gmail.com</a>
                     </p>
                   </div>
                 </div>
