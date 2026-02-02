@@ -67,7 +67,7 @@ const socialLinks = [
         </div>
 
         <!-- Contact Info -->
-        <div class="footer-section">
+        <div class="footer-section" style="display: none;">
           <h4 class="footer-subtitle">Contact Us</h4>
           <address class="footer-contact">
             <p>

@@ -108,11 +108,11 @@ const handleSubmit = () => {
           </div>
 
           <!-- Contact Info -->
-          <div class="contact-info">
+          <div class="contact-info" >
             <div class="info-section">
-              <h3>Contact Information</h3>
+              <h3 style="display: none;">Contact Information</h3>
               <div class="info-items">
-                <div class="info-item">
+                <div class="info-item" style="display: none;">
                   <div class="info-icon">📍</div>
                   <div class="info-content">
                     <h4>Address</h4>
@@ -124,7 +124,7 @@ const handleSubmit = () => {
                   </div>
                 </div>
 
-                <div class="info-item">
+                <div class="info-item" style="display: none;">
                   <div class="info-icon">📧</div>
                   <div class="info-content">
                     <h4>Email</h4>
@@ -134,7 +134,7 @@ const handleSubmit = () => {
                   </div>
                 </div>
 
-                <div class="info-item">
+                <div class="info-item" style="display: none;">
                   <div class="info-icon">📞</div>
                   <div class="info-content">
                     <h4>Phone</h4>
