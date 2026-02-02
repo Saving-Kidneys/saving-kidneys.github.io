@@ -161,7 +161,7 @@ const handleDonateCashApp = () => {
           </div>
 
           <!-- Impact Info -->
-          <div class="impact-info">
+          <div class="impact-info" style="display: none;">
             <h3>Your Impact</h3>
             <p class="impact-intro">
               See how your donation helps our cause.
@@ -201,7 +201,7 @@ const handleDonateCashApp = () => {
     </section>
 
     <!-- FAQ Section -->
-    <section class="section faq-section">
+    <section class="section faq-section" style="display: none;">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Frequently Asked Questions</h2>
@@ -247,8 +247,8 @@ const handleDonateCashApp = () => {
 
 /* Donate Grid */
 .donate-grid {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  justify-content: center;
   gap: var(--spacing-10);
 }
 
@@ -258,6 +258,8 @@ const handleDonateCashApp = () => {
   padding: var(--spacing-8);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-lg);
+  max-width: 600px;
+  width: 100%;
 }
 
 .donate-form-container h2 {
