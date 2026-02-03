@@ -65,17 +65,17 @@ useHead({
           </div>
           <div class="team-member">
             <div class="member-photo">
-              <img src="/assets/images/wallace4.png" alt="Wallace S. Green Sr." class="photo-placeholder" />
+              <img src="/assets/images/roshawn.jpg" alt="Roshawn Foote-Scott" class="photo-placeholder" />
             </div>
             <h3 class="member-name">Roshawn Foote-Scott</h3>
             <p class="member-role">President</p>
           </div>
           <div class="team-member">
             <div class="member-photo">
-              <div class="photo-placeholder"></div>
+              <img src="/assets/images/michael (1).png" alt="Michael G." class="photo-placeholder" />
             </div>
-            <h3 class="member-name">Team Member Name</h3>
-            <p class="member-role">Role / Title</p>
+            <h3 class="member-name">Michael G</h3>
+            <p class="member-role">Food Distribution Coordinator</p>
           </div>
         </div>
       </div>
