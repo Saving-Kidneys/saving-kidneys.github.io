@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue'
 import { useHead } from '@unhead/vue'
 
 useHead({
@@ -19,18 +18,6 @@ useHead({
     { name: 'twitter:image', content: 'https://saving-kidneys.github.io/assets/images/savingkidneys-og.jpg' }
   ]
 })
-
-const form = ref({
-  name: '',
-  email: '',
-  subject: '',
-  message: ''
-})
-
-const handleSubmit = () => {
-  // Handle form submission
-  console.log('Form submitted:', form.value)
-}
 </script>
 
 <template>
@@ -53,58 +40,17 @@ const handleSubmit = () => {
           <!-- Contact Form -->
           <div class="contact-form-container">
             <h2>Send Us a Message</h2>
-            <form class="contact-form" @submit.prevent="handleSubmit">
-              <div class="form-group">
-                <label for="name" class="form-label">Your Name</label>
-                <input 
-                  type="text" 
-                  id="name" 
-                  v-model="form.name"
-                  class="form-input" 
-                  placeholder="John Doe"
-                  required 
-                />
-              </div>
-
-              <div class="form-group">
-                <label for="email" class="form-label">Email Address</label>
-                <input 
-                  type="email" 
-                  id="email" 
-                  v-model="form.email"
-                  class="form-input" 
-                  placeholder="john@example.com"
-                  required 
-                />
-              </div>
-
-              <div class="form-group">
-                <label for="subject" class="form-label">Subject</label>
-                <input 
-                  type="text" 
-                  id="subject" 
-                  v-model="form.subject"
-                  class="form-input" 
-                  placeholder="How can we help?"
-                  required 
-                />
-              </div>
-
-              <div class="form-group">
-                <label for="message" class="form-label">Message</label>
-                <textarea 
-                  id="message" 
-                  v-model="form.message"
-                  class="form-textarea" 
-                  placeholder="Your message..."
-                  required
-                ></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary btn-lg submit-btn">
-                Send Message
-              </button>
-            </form>
+            <div class="google-form-wrapper">
+              <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdJGDe0m7EMKu82fNE5y2ZPf4G_i9WKS_XACG6UFv5sm1hWzg/viewform?embedded=true" 
+                width="100%" 
+                height="820" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0"
+                title="Contact Form"
+              >Loading…</iframe>
+            </div>
           </div>
 
           <!-- Contact Info -->
@@ -124,12 +70,12 @@ const handleSubmit = () => {
                   </div>
                 </div>
 
-                <div class="info-item" style="display: none;">
+                <div class="info-item">
                   <div class="info-icon">📧</div>
                   <div class="info-content">
                     <h4>Email</h4>
                     <p>
-                      <a href="mailto:kidneycoachro@gmail.com">kidneycoachro@gmail.com</a>
+                      <a href="mailto:makeadifference@savingkidneys.org">makeadifference@savingkidneys.org</a>
                     </p>
                   </div>
                 </div>
@@ -237,7 +183,13 @@ const handleSubmit = () => {
   margin-bottom: var(--spacing-6);
 }
 
-.submit-btn {
+.google-form-wrapper {
+  width: 100%;
+  min-height: 820px;
+}
+
+.google-form-wrapper iframe {
+  border: none;
   width: 100%;
 }
 
