@@ -49,6 +49,8 @@ const yearsSinceFoodDistribution = new Date().getFullYear() - foodDistributionSt
             <span class="city-badge">Chesapeake</span>
             <span class="city-badge">Suffolk</span>
             <span class="city-badge">Portsmouth</span>
+            <span class="city-badge">Hampton</span>
+            <span class="city-badge">Elizabeth City</span>
           </div>
         </div>
         <div class="food-gallery">
