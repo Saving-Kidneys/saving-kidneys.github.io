@@ -8,5 +8,12 @@ export default defineConfig({
     alias: {
       '@': '/src'
     }
+  },
+  ssgOptions: {
+    script: 'async',
+    formatting: 'minify',
+    crittersOptions: {
+      preload: 'swap'
+    }
   }
 })

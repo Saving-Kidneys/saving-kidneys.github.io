@@ -44,7 +44,7 @@ useHead({
               <iframe 
                 src="https://docs.google.com/forms/d/e/1FAIpQLSdJGDe0m7EMKu82fNE5y2ZPf4G_i9WKS_XACG6UFv5sm1hWzg/viewform?embedded=true" 
                 width="100%" 
-                height="820" 
+                height="600" 
                 frameborder="0" 
                 marginheight="0" 
                 marginwidth="0"
@@ -185,7 +185,6 @@ useHead({
 
 .google-form-wrapper {
   width: 100%;
-  min-height: 820px;
 }
 
 .google-form-wrapper iframe {

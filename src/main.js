@@ -1,12 +1,17 @@
-import { createApp } from 'vue'
+import { ViteSSG } from 'vite-ssg'
 import { createHead } from '@unhead/vue'
 import App from './App.vue'
-import router from './router'
+import { routes } from './router'
 import './assets/styles/main.css'
 
-const app = createApp(App)
-const head = createHead()
-
-app.use(head)
-app.use(router)
-app.mount('#app')
+export const createApp = ViteSSG(
+  App,
+  { 
+    routes,
+    base: '/'
+  },
+  ({ app, router, isClient }) => {
+    const head = createHead()
+    app.use(head)
+  }
+)

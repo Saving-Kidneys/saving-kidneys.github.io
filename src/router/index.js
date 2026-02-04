@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory, createMemoryHistory } from 'vue-router'
 
 import HomePage from '../views/HomePage.vue'
 import AboutPage from '../views/AboutPage.vue'
@@ -10,7 +10,7 @@ import ContactPage from '../views/ContactPage.vue'
 import ChronicKidneyEducation from '../views/education/ChronicKidneyEducation.vue'
 import SavingKidneysEducation from '../views/education/SavingKidneysEducation.vue'
 
-const routes = [
+export const routes = [
   {
     path: '/',
     name: 'Home',
@@ -58,16 +58,18 @@ const routes = [
   }
 ]
 
-const router = createRouter({
-  history: createWebHistory('/'),
-  routes,
-  scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition
-    } else {
-      return { top: 0 }
+export function createAppRouter() {
+  return createRouter({
+    history: import.meta.env.SSR ? createMemoryHistory('/') : createWebHistory('/'),
+    routes,
+    scrollBehavior(to, from, savedPosition) {
+      if (savedPosition) {
+        return savedPosition
+      } else {
+        return { top: 0 }
+      }
     }
-  }
-})
+  })
+}
 
-export default router
+export default createAppRouter
