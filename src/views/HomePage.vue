@@ -250,6 +250,22 @@ onUnmounted(() => {
       </div>
     </section>
 
+    <!-- Thank You to our Sponsors -->
+    <section class="section feature-section">
+      <div class="container">
+        <div class="feature-content">
+          <div class="feature-text">
+            <h2 class="section-title">Thank You to Our Sponsors</h2>
+            <p>We are grateful for the generous support of our sponsors who help us continue our mission of raising awareness about Chronic Kidney Disease prevention and education.</p>
+            <p><RouterLink to="/sponsors" class="text-link">Learn More About Our Sponsors</RouterLink></p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/images/modern-woodmen-sponsor.jpg" alt="Modern Woodmen of America Sponsor" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Kroger Community Rewards -->
     <section class="section feature-section feature-alt">
       <div class="container">

@@ -9,6 +9,7 @@ import DonatePage from '../views/DonatePage.vue'
 import ContactPage from '../views/ContactPage.vue'
 import ChronicKidneyEducation from '../views/education/ChronicKidneyEducation.vue'
 import SavingKidneysEducation from '../views/education/SavingKidneysEducation.vue'
+import SponsorsPage from '../views/SponsorsPage.vue'
 
 export const routes = [
   {
@@ -50,6 +51,11 @@ export const routes = [
     path: '/donate',
     name: 'Donate',
     component: DonatePage
+  },
+  {
+    path: '/sponsors',
+    name: 'Sponsors',
+    component: SponsorsPage
   },
   {
     path: '/contact',
