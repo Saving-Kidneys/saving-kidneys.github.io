@@ -2,13 +2,13 @@
 import { useHead } from '@unhead/vue'
 
 useHead({
-  title: 'Learn More About Our Sponsors - Health & Awareness, Inc',
+  title: 'Thank You To Our Sponsors - Health & Awareness, Inc',
   link: [
     { rel: 'canonical', href: 'https://saving-kidneys.github.io/sponsors' }
   ],
   meta: [
     { name: 'description', content: 'Learn about the generous sponsors who support Health & Awareness, Inc in our mission to raise awareness about Chronic Kidney Disease prevention.' },
-    { property: 'og:title', content: 'Learn More About Our Sponsors - Health & Awareness, Inc' },
+    { property: 'og:title', content: 'Thank You To Our Sponsors - Health & Awareness, Inc' },
     { property: 'og:description', content: 'Meet the sponsors who help us fight Chronic Kidney Disease.' },
     { property: 'og:type', content: 'website' },
     { property: 'og:url', content: 'https://saving-kidneys.github.io/sponsors' }
@@ -21,7 +21,7 @@ useHead({
     <!-- Hero Section -->
     <section class="page-hero">
       <div class="container">
-        <h1 class="page-title">Learn More About Our Sponsors</h1>
+        <h1 class="page-title">Thank You To Our Sponsors</h1>
         <p class="page-subtitle">
           We are grateful for the generous organizations and individuals who support our mission to raise awareness about Chronic Kidney Disease prevention.
         </p>
