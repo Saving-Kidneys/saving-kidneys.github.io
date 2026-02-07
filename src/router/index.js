@@ -10,6 +10,7 @@ import ContactPage from '../views/ContactPage.vue'
 import ChronicKidneyEducation from '../views/education/ChronicKidneyEducation.vue'
 import SavingKidneysEducation from '../views/education/SavingKidneysEducation.vue'
 import SponsorsPage from '../views/SponsorsPage.vue'
+import AboutWallacePage from '../views/AboutWallacePage.vue'
 
 export const routes = [
   {
@@ -61,6 +62,11 @@ export const routes = [
     path: '/contact',
     name: 'Contact',
     component: ContactPage
+  },
+  {
+    path: '/about-wallace',
+    name: 'AboutWallace',
+    component: AboutWallacePage
   }
 ]
 

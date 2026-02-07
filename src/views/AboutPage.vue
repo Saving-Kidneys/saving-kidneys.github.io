@@ -40,7 +40,7 @@ useHead({
           </div>
           <div class="content-image">
             <!-- Add an image here -->
-            <img src="/assets/images/wallace4.png" alt="Wallace S. Green Sr." class="story-image" />
+            <img src="/assets/images/wallace4.png" alt="WallACE S. Green Sr." class="story-image" />
           </div>
         </div>
       </div>
@@ -58,9 +58,9 @@ useHead({
         <div class="team-grid">
           <div class="team-member">
             <div class="member-photo">
-              <img src="/assets/images/wallace4.png" alt="Wallace S. Green Sr." class="photo-placeholder" />
+              <img src="/assets/images/wallace4.png" alt="WallACE S. Green Sr." class="photo-placeholder" />
             </div>
-            <h3 class="member-name">Wallace S. Green Sr.</h3>
+            <h3 class="member-name">WallACE S. Green Sr.</h3>
             <p class="member-role">Founder</p>
           </div>
           <div class="team-member">
@@ -86,30 +86,27 @@ useHead({
       <div class="container">
         <div class="founder-intro">
           <div class="founder-images">
-            <img src="/assets/images/wallace1.png" alt="Wallace S. Green Sr." class="founder-image founder-image-main" />
-            <div class="founder-images-secondary">
-              <img src="/assets/images/wallace2.png" alt="Wallace S. Green Sr." class="founder-image" />
-              <img src="/assets/images/wallace3.png" alt="Wallace S. Green Sr." class="founder-image" />
-            </div>
+            <img src="/assets/images/wallace1.png" alt="WallACE S. Green Sr." class="founder-image founder-image-main" />
           </div>
           <div class="founder-text">
             <h2>The Mastermind Behind The Mission</h2>
             <p>
-              Wallace S. Green Sr., is the founder of Health & Awareness, Inc. The organization was created from his personal experience with chronic kidney failure. Wallace's kidneys failed at the age of 50. However, he later discovered from his own research that he had chronic kidney disease at age 17.
+              WallACE S. Green Sr., is the founder of Health & Awareness, Inc. The organization was created from his personal experience with chronic kidney failure. WallACE's kidneys failed at the age of 50. However, he later discovered from his own research that he had chronic kidney disease at age 17.
             </p>
             <p>
-              Wallace served our country and during that time he was exposed to "Agent Orange". His exposure to the agent contributed to him experiencing side effects directly related to the agent. Mr. Green's experience with chronic kidney disease was a long journey for him. He had to receive dialysis for 5 years while waiting for a kidney transplant.
+              WallACE served our country and during that time he was exposed to "Agent Orange". His exposure to the agent contributed to him experiencing side effects directly related to the agent. Mr. Green's experience with chronic kidney disease was a long journey for him. He had to receive dialysis for 5 years while waiting for a kidney transplant.
             </p>
             <p>
-              Once he received a kidney, unfortunately, the kidney Wallace received ended up failing due to other health issues. However, Wallace was blessed! The failed kidney resulted in him having to receive dialysis for 3 more years. During the 3rd year is when Wallace received the good news regarding another kidney. He then went through the process of having a kidney transplant, which ended his need for dialysis. The new kidney that Mr. Green received is functioning well.
+              Once he received a kidney, unfortunately, the kidney WallACE received ended up failing due to other health issues. However, WallACE was blessed! The failed kidney resulted in him having to receive dialysis for 3 more years. During the 3rd year is when WallACE received the good news regarding another kidney. He then went through the process of having a kidney transplant, which ended his need for dialysis. The new kidney that Mr. Green received is functioning well.
             </p>
+            <router-link to="/about-wallace" class="learn-more-link">Learn more about WallACE S. Green Sr.</router-link>
           </div>
         </div>
 
         <div class="founder-advocacy">
           <h3>Advocacy & Recognition</h3>
           <p>
-            Wallace's transplant experience led to him advocating for organ donations. He became one of the faces of LifeNet Health, the world's most trusted provider of transplant solutions. Wallace has a featured story on LifeNet's website and even a huge mural in the Norfolk Airport promoting organ donation.
+            WallACE's transplant experience led to him advocating for organ donations. He became one of the faces of LifeNet Health, the world's most trusted provider of transplant solutions. WallACE has a featured story on LifeNet's website and even a huge mural in the Norfolk Airport promoting organ donation.
           </p>
           <p>
             Mr. Green's journey further led to him writing a book entitled <a href="https://www.amazon.com/dp/1642994316" target="_blank" rel="noopener noreferrer" class="book-link"><strong>"Why Not Me?"</strong></a> which centers around his emotional journey of facing chronic kidney failure and what it entails.
@@ -120,14 +117,14 @@ useHead({
         </div>
 
         <div class="founder-banner">
-          <img src="/assets/images/wallace-banner.jpg" alt="Wallace S. Green Sr. - LifeNet Health" class="banner-image" />
+          <img src="/assets/images/wallace-banner.jpg" alt="WallACE S. Green Sr. - LifeNet Health" class="banner-image" />
         </div>
 
         <div class="founder-video">
           <div class="video-container">
             <iframe 
               src="https://www.youtube.com/embed/w1ehOGXv79c" 
-              title="Wallace S. Green Sr. - Health & Awareness"
+              title="WallACE S. Green Sr. - Health & Awareness"
               frameborder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
               allowfullscreen
@@ -254,12 +251,6 @@ useHead({
   max-width: 100%;
 }
 
-.founder-images-secondary {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--spacing-4);
-}
-
 .founder-text h2 {
   margin-bottom: var(--spacing-6);
   color: var(--color-gray-900);
@@ -268,6 +259,19 @@ useHead({
 .founder-text p {
   color: var(--color-gray-600);
   line-height: var(--line-height-relaxed);
+}
+
+.learn-more-link {
+  display: inline-block;
+  margin-top: var(--spacing-4);
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color var(--transition-fast);
+}
+
+.learn-more-link:hover {
+  color: var(--color-primary-dark);
 }
 
 .founder-advocacy {
