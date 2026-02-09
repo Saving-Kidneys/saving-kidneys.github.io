@@ -58,7 +58,7 @@ useHead({
             <div class="info-section">
               <h3 style="display: none;">Contact Information</h3>
               <div class="info-items">
-                <div class="info-item" style="display: none;">
+                <div class="info-item">
                   <div class="info-icon">📍</div>
                   <div class="info-content">
                     <h4>Address</h4>
