@@ -28,7 +28,7 @@ useHead({
         <div class="content-grid">
           <div class="content-text">
             <p class="italic"> A warm welcome from The Founder/CEO and Volunteer Team</p>
-            <h3>Roshawn Foote-Scott - President</h3>
+            <h3>Roshawn Footé-Scott - President</h3>
             <blockquote>
               <p>It's a pleasure to step into this leading role. I'm genuinely excited to be chosen as president of Health & Awareness and to partner with you all.  I've heard great things about this team's dedication and talent, and I'm eager to build on that success. Your expertise is what will drive us forward. </p>
                 <p>My immediate focus is to learn from you and identify opportunities for us to grow and innovate. In the coming weeks, I'll be meeting with each of you to understand your perspectives. I believe in empowering teams, and I'm committed to creating an environment where your voices are heard, and your ideas can flourish. You can expect transparency and timely decisions from me, and I hope for your best effort and ideas. Let's redefine what's possible together!</p>
@@ -40,7 +40,7 @@ useHead({
             </blockquote>
           </div>
           <div class="content-image">
-            <img src="/assets/images/wallace4.png" alt="Wallace S. Green Sr." class="story-image" />
+            <img src="/assets/images/wallace4.png" alt="WallACE S. Green Sr." class="story-image" />
           </div>
         </div>
       </div>

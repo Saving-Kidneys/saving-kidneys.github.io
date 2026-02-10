@@ -152,6 +152,15 @@ onUnmounted(() => {
       </div>
     </section>
 
+    <!-- World Kidney Day Section -->
+    <section class="section world-kidney-day-section">
+      <div class="container">
+        <div class="world-kidney-day-content">
+          <img src="/assets/images/World Kidney Day Flier Friday March 6th 2026.jpg" alt="World Kidney Day - Friday March 6th, 2026" />
+        </div>
+      </div>
+    </section>
+
     <!-- Do You Know Section -->
     <section class="section info-section">
       <div class="container">
@@ -749,6 +758,26 @@ onUnmounted(() => {
 /* Info Sections */
 .info-section {
   background-color: var(--color-white);
+}
+
+/* World Kidney Day Section */
+.world-kidney-day-section {
+  background-color: var(--color-gray-50);
+}
+
+.world-kidney-day-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.world-kidney-day-content img {
+  max-width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  margin: 0 auto;
 }
 
 .info-section.info-section-alt {

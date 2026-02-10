@@ -65,9 +65,9 @@ useHead({
           </div>
           <div class="team-member">
             <div class="member-photo">
-              <img src="/assets/images/roshawn.jpg" alt="Roshawn Foote-Scott" class="photo-placeholder" />
+              <img src="/assets/images/roshawn.jpg" alt="Roshawn Footé-Scott" class="photo-placeholder" />
             </div>
-            <h3 class="member-name">Roshawn Foote-Scott</h3>
+            <h3 class="member-name">Roshawn Footé-Scott</h3>
             <p class="member-role">President</p>
           </div>
           <div class="team-member">
