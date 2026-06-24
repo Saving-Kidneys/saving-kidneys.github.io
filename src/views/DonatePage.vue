@@ -149,6 +149,7 @@ const handleDonateCashApp = () => {
                 type="button" 
                 class="btn btn-secondary btn-lg donate-submit"
                 @click="handleDonateCashApp"
+                style="display: none"
               >
                 <img src="/assets/images/cashapp.svg" alt="CashApp" class="btn-icon" />
                 Donate via CashApp {{ donationAmount ? `$${donationAmount}` : '' }}
