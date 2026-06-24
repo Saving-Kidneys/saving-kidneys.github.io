@@ -145,15 +145,6 @@ const handleDonateCashApp = () => {
                 <img src="/assets/images/PayPal_Logo_Icon_2014.svg" alt="PayPal" class="btn-icon" />
                 Donate via PayPal {{ donationAmount ? `$${donationAmount}` : '' }}
               </button>
-              <button 
-                type="button" 
-                class="btn btn-secondary btn-lg donate-submit"
-                @click="handleDonateCashApp"
-                style="display: none"
-              >
-                <img src="/assets/images/cashapp.svg" alt="CashApp" class="btn-icon" />
-                Donate via CashApp {{ donationAmount ? `$${donationAmount}` : '' }}
-              </button>
             </div>
 
             <p class="secure-note">
